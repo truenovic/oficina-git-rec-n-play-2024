@@ -1,0 +1,67 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Estilos para o botão */
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
